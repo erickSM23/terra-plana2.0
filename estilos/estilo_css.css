@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'header';
-    src: url(/fontes/Empire.ttf) format(opentype);
+    src: url('../fontes/Empire.ttf') format(opentype);
 }
 
 @font-face {
     font-family: 'titulos';
-    src: url(/fontes/BebasNeue-Regular.otf) format(opentype);
+    src: url('../fontes/BebasNeue-Regular.otf') format(opentype);
 }
 
 @font-face {
     font-family: 'textos';
-    src: url(/fontes/Nauman-Regular.ttf) format(opentype);
+    src: url('../fontes/Nauman-Regular.ttf') format(opentype);
 }
 
 /*
@@ -81,3 +81,4 @@ main {
 
     background-color: white;
 }
+
