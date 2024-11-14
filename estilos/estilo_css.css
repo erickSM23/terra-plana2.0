@@ -63,6 +63,7 @@ header {
     background-image: linear-gradient(to bottom, #040FD9,#010440);
 
     padding: 40px;
+    margin: auto;
 }
 
 header > h1 {
