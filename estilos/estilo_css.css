@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'header';
+    src: url(/fontes/Empire.ttf) format(opentype);
+}
+
+@font-face {
+    font-family: 'titulos';
+    src: url(/fontes/BebasNeue-Regular.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'textos';
+    src: url(/fontes/Nauman-Regular.ttf) format(opentype);
+}
+
 /*
     TYPICAL DECIVE BREAKPOINTS
 
@@ -18,3 +33,48 @@
 
     PROPRIEDADES TIPOFRÁFICAS : Relacionadas ao texto (ex: font-family, font-size, line-height, text-align).
 */
+
+:root{
+    --cor0: #040FD9; 
+    --cor1: #040DBF; 
+    --cor2: #030A8C; 
+    --cor3: #020659; 
+    --cor4: #010440; 
+
+    --font_header: 'header';
+    --font_titulos: 'titulos';
+    --font_textos: 'textos';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+
+    background-color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #040FD9,#010440);
+    padding: 40px;
+}
+
+header > h1 {
+    font-size: 5em;
+    text-align: center;
+    text-decoration: underline;
+    font-family: var(--font_header);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding-bottom: 0px;
+
+    background-color: white;
+}
