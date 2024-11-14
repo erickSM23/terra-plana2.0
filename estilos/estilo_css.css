@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*
+    TYPICAL DECIVE BREAKPOINTS
+
+    320px — 480px: dispositivos móveis.
+    481px — 768px: iPads, tablets.
+    769px — 1024px: telas pequenas, laptops.
+    1025px — 1200px: desktops, telas grandes.
+    1201px e acima — telas muito grandes, TVs.
+    1 de dez. de 2021
+*/
+
+/*
+    PROPIEDADES DE LAYOUT: Relacionadas à posição e tamanho (ex: margin, padding, display, position).
+
+    PROPIEDADES DE ESTILO VISUAL: Relacionadas à cor, bordas, sombras (ex: background, color, border, box-shadow).
+
+    PROPRIEDADES TIPOFRÁFICAS : Relacionadas ao texto (ex: font-family, font-size, line-height, text-align).
+*/
