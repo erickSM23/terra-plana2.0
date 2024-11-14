@@ -94,3 +94,14 @@ p {
     font-family: var(--font_textos);
     font-weight: 900;
 }
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--cor1);
+
+    padding: 40px;
+    margin: 0px;
+}
