@@ -100,8 +100,19 @@ img {
 }
 
 footer {
-    background-color: var(--cor1);
+    background-color: var(--cor2);
 
     padding: 40px;
     margin: 0px;
+}
+
+footer > p {
+    margin:0px;
+   
+    color: white;
+
+    font-family: var(--font_titulos);
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
 }
