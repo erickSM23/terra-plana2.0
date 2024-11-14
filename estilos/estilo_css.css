@@ -61,15 +61,17 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #040FD9,#010440);
+
     padding: 40px;
 }
 
 header > h1 {
     font-size: 5em;
     text-align: center;
-    font-weight: bolder;
+    font-weight: normal;
     text-decoration: underline;
     font-family: var(--font_header);
+    line-height: normal;
 }
 
 main {
@@ -82,3 +84,12 @@ main {
     background-color: white;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: var(--font_titulos);
+    font-weight: 500;
+}
+
+p {
+    font-family: var(--font_textos);
+    font-weight: 900;
+}
