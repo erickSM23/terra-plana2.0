@@ -148,7 +148,7 @@ img {
 
 div.menos {
     margin: 0px -30px;
-    
+    margin-bottom: 30px;
 }
 
 img#modelocosmologico {
@@ -162,13 +162,17 @@ img#objeto {
 }
 
 img#salto {
-
+    height: 700px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
 }
 
 img#sinete {
-    height: 60%;
-    display: block;
+    height: 570px;
     margin: auto;
+    display: block;
+    object-fit: cover;
 }
 
 footer {
