@@ -169,9 +169,10 @@ img#salto {
 }
 
 img#sinete {
-    height: 570px;
+    width: 60%;
     margin: auto;
     display: block;
+    padding-top: 30px;
 }
 
 footer {
