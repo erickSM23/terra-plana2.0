@@ -121,6 +121,18 @@ main > p {
     line-height: 30px;
 }
 
+main > ul {
+    font-family: var(--font_textos);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+main > li {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
 img {
     width: 100%;
 }
