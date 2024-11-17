@@ -99,6 +99,7 @@ p {
     font-family: var(--font_textos);
     font-weight: 900;
     text-align: center;
+    font-size: 1.2em;
 }
 
 img {
