@@ -142,6 +142,33 @@ strong.versiculos{
 
 img {
     width: 100%;
+    margin: auto;
+    display: block;
+}
+
+div.menos {
+    margin: 0px -30px;
+    
+}
+
+img#modelocosmologico {
+    height: 500px;
+}
+
+img#objeto {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+img#salto {
+
+}
+
+img#sinete {
+    height: 60%;
+    display: block;
+    margin: auto;
 }
 
 footer {
