@@ -86,7 +86,7 @@ main {
     background-color: white;
 }
 
-main > h1#um {
+main > h1, h2, h3.um {
     padding-top: 50px;
 }
 
@@ -122,15 +122,22 @@ main > p {
 }
 
 main > ul {
+    padding-left: 30px;
+
     font-family: var(--font_textos);
     font-size: 20px;
     font-weight: 900;
     line-height: 30px;
 }
 
-main > li {
+main > ul > li {
     text-align: justify;
     margin-bottom: 30px;
+}
+
+strong.versiculos{
+    display: table-cell;
+    background-image: linear-gradient(to right, var(--cor2) 20%, transparent);
 }
 
 img {
@@ -138,8 +145,7 @@ img {
 }
 
 footer {
-    background-color: var(--cor2
-    );
+    background-color: var(--cor2);
 
     padding: 40px;
     margin: 0px;
