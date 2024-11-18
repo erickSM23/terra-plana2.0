@@ -16,17 +16,6 @@
 }
 
 /*
-    TYPICAL DECIVE BREAKPOINTS
-
-    320px — 480px: dispositivos móveis.
-    481px — 768px: iPads, tablets.
-    769px — 1024px: telas pequenas, laptops.
-    1025px — 1200px: desktops, telas grandes.
-    1201px e acima — telas muito grandes, TVs.
-    1 de dez. de 2021
-*/
-
-/*
     PROPIEDADES DE LAYOUT: Relacionadas à posição e tamanho (ex: margin, padding, display, position).
 
     PROPIEDADES DE ESTILO VISUAL: Relacionadas à cor, bordas, sombras (ex: background, color, border, box-shadow).
@@ -208,6 +197,22 @@ a:hover {
 
     transition: 1.5s;
 }   
+
+div#video {
+    background-color: black;
+    margin: -35px -30px 100px -30px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+div#video > iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
 
 footer {
     background-color: var(--cor2);
