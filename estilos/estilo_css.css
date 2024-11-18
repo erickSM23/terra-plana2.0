@@ -145,7 +145,7 @@ strong.significados {
 
 strong.versiculos{
     display: table-cell;
-    background-image: linear-gradient(to right, var(--cor0),transparent 15%);
+    background-image: linear-gradient(to right, var(--cor0),transparent 20%);
     color: white;
 
     display: block;
