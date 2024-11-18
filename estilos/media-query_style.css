@@ -31,6 +31,10 @@
     main > p {
         font-size: 25px;
     }
+
+    main ul {
+        font-size: 25px;
+    }
     
     strong.versiculos{
         display: table-cell;
