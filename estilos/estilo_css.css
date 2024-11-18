@@ -135,9 +135,20 @@ main > ul > li {
     margin-bottom: 30px;
 }
 
+strong.significados {
+    color: var(--cor0);
+
+    font-family: var(--font_titulos);
+    font-weight: normal;
+    font-size: 2em;
+}
+
 strong.versiculos{
     display: table-cell;
-    background-image: linear-gradient(to right, var(--cor2) 20%, transparent);
+    background-image: linear-gradient(to right, var(--cor0),transparent 15%);
+    color: white;
+
+    display: block;
 }
 
 img {
@@ -173,7 +184,30 @@ img#sinete {
     margin: auto;
     display: block;
     padding-top: 30px;
+    margin-bottom: 100px;
 }
+
+a {
+    color: var(--cor1);
+
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+a:hover {
+    padding: 5px;
+
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 40px;
+
+    text-decoration: none;
+    font-family: var(--font_header);
+    font-weight: normal;
+
+    transition: 1.5s;
+}   
 
 footer {
     background-color: var(--cor2);
